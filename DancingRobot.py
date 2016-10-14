@@ -1,2 +1,18 @@
 from Myro import *
 init("sim")
+def Spin ():
+    forward(2,1)
+    turnRight(3,1)
+    turnLeft(1,1)
+    turnRight(3,1)
+    turnRight(2,1)
+    forward(2,1)
+    turnLeft(3,1)
+    turnLeft(2,1)
+    turnLeft(4,1)
+    turnRight(2,1)
+    turnLeft(4,1)
+    turnLeft(2,1)
+    forward(2,1.5)
+    turnRight(3,2)
+Spin ()
