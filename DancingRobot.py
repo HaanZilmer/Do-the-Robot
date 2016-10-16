@@ -39,5 +39,5 @@ def Spin ():
 turnBy(90)
 forward(2,1)
 Spin ()
-Sprinkler()
+Sprinkler(20)
 TwoStep()
